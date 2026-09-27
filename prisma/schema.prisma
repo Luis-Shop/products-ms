@@ -18,5 +18,5 @@ model Product {
 	price Float
 
 	createdAt DateTime @default(now())
-	updateAt DateTime @updatedAt
+	updatedAt DateTime @updatedAt
 }
